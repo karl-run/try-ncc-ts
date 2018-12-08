@@ -1,0 +1,16 @@
+{
+  "name": "gnelf",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "ncc build index.ts -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.12"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.5.1",
+    "typescript": "^3.2.2"
+  }
+}
